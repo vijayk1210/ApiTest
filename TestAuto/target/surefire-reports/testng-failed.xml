@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" verbose="0" name="Failed suite [Suite1]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <test name="RegistrationTesting(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="Sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestCases.RegistrationTest">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="RegistrationCheck"/>
+        </methods>
+      </class> <!-- TestCases.RegistrationTest -->
+      <class name="Utility.Base">
+        <methods>
+          <include name="extentSetup"/>
+          <include name="generateReport"/>
+        </methods>
+      </class> <!-- Utility.Base -->
+    </classes>
+  </test> <!-- RegistrationTesting(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

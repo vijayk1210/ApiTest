@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > 
+<suite name="Suite1" verbose="1" >
+
+<test name="loginTests" > 
+
+    <parameter name="browser" value="chrome"></parameter>  
+  
+    <classes>
+       <class name="Utility.Base" />
+       <class name="TestCases.loginTest" />
+    </classes> 
+    
+  </test>
+  
+
+<test name="LanSelector" > 
+
+    
+  
+    <classes>
+       <class name="Utility.Base" />
+       <class name="TestCases.langSelectorTest" />
+    </classes> 
+    
+  </test>
+ 
+       
+</suite>
