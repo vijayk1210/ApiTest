@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <parameter name="browser" value="chrome"/>
+  <test name="FlightSearch(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Utility.Base">
+        <methods>
+          <include name="extentSetup"/>
+        </methods>
+      </class> <!-- Utility.Base -->
+      <class name="TestCases.SearchResultTests">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="VerifyCheapestPriceDisplayedOrNot"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- TestCases.SearchResultTests -->
+    </classes>
+  </test> <!-- FlightSearch(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
