@@ -6,9 +6,9 @@ import Utility.Base;
 
 public class HomePage extends Base {
 	
-	private static String arrivalAirportLocator = "//input[@id='6587b3fb-9222-4906-b323-61a097c3119e']";
+	private static String arrivalAirportLocator = "//div[@class='field js-fields field--focus']/input[@name='Arrival airport']";
 	private static String continueButtonLocator = "//a[@class='cta cta--large cta--primary js-continue-search-flight search-flight__continue--cta ']";
-	private static String dateLocator = "//eol-calendar[@data-component-id='c8b3-1177-4f53-6388']/../..//td[@data-string='testData']";
+	private static String dateLocator = "//eol-calendar[@class='eol-calendar--visible eol-calendar--top']/../..//td[@data-string='testData']";
 	private static String searchFlightsLocator = "//button[@type='submit']/span[text()='Search flights']";
 	
 	

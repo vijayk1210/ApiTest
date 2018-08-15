@@ -7,12 +7,14 @@ import PageObjects.SearchResultPage;
 import Utility.Base;
 import Utility.util;
 
-@Test
+
 public class SearchResultTests extends Base {
 	
-	
+
+  @Test
   public void VerifyCheapestPriceDisplayedOrNot() {
 	 boolean cheapestPrice = true;
+	 
 	 HomePage.selectDestination(util.getTestData("destination")); 
 	 
 	 HomePage.clickContinueButton();

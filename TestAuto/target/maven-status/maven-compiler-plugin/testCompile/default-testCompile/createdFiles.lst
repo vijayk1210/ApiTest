@@ -1,0 +1,3 @@
+PageObjects\HomePage.class
+TestCases\SearchResultTests.class
+PageObjects\SearchResultPage.class
