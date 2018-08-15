@@ -5,12 +5,18 @@
 
     
     <classes>
-      
        <class name="TestCases.apiTest" />
     </classes> 
     
 </test>
   
-
+<test name="SearchFlight" > 
+ 
+    <classes>
+       <class name="Utility.Base" />
+       <class name="TestCases.apiTest" />
+    </classes> 
+        
+</test>
        
 </suite>
