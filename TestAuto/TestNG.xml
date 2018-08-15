@@ -5,20 +5,12 @@
 
     
     <classes>
-       <class name="Utility.Base" />
+      
        <class name="TestCases.apiTest" />
     </classes> 
     
 </test>
   
-<test name="FlightSearch" > 
 
-    
-    <classes>
-       <class name="Utility.Base" />
-       <class name="TestCases.SearchResultTests" />
-    </classes> 
-    
-</test>
        
 </suite>

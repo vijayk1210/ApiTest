@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="TestCases.SampleTest">
+      <class name="TestCases.apiTest">
         <methods>
-          <include name="verifyResponseObjects"/>
+          <include name="verifyResponseObjectDataCount" invocation-numbers="1"/>
         </methods>
-      </class> <!-- TestCases.SampleTest -->
+      </class> <!-- TestCases.apiTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
