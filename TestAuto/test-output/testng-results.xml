@@ -1,61 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="12" passed="12">
+<testng-results skipped="0" failed="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="45230" started-at="2018-08-15T18:48:56Z" finished-at="2018-08-15T18:49:41Z">
+  <suite name="Default suite" duration-ms="16760" started-at="2018-08-16T07:26:43Z" finished-at="2018-08-16T07:26:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="45230" started-at="2018-08-15T18:48:56Z" finished-at="2018-08-15T18:49:41Z">
+    <test name="Default test" duration-ms="16760" started-at="2018-08-16T07:26:43Z" finished-at="2018-08-16T07:26:59Z">
       <class name="TestCases.apiTest">
-        <test-method status="PASS" signature="verifyResponseObjectDataCount(java.lang.String, java.lang.String)[pri:0, instance:TestCases.apiTest@53b32d7]" name="verifyResponseObjectDataCount" duration-ms="5572" started-at="2018-08-16T00:18:56Z" data-provider="Api data count" finished-at="2018-08-16T00:19:02Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[minutely]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[61]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyResponseObjectDataCount -->
-        <test-method status="PASS" signature="verifyResponseObjectDataCount(java.lang.String, java.lang.String)[pri:0, instance:TestCases.apiTest@53b32d7]" name="verifyResponseObjectDataCount" duration-ms="3516" started-at="2018-08-16T00:19:02Z" data-provider="Api data count" finished-at="2018-08-16T00:19:05Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[hourly]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[49]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyResponseObjectDataCount -->
-        <test-method status="PASS" signature="verifyResponseObjectDataCount(java.lang.String, java.lang.String)[pri:0, instance:TestCases.apiTest@53b32d7]" name="verifyResponseObjectDataCount" duration-ms="3980" started-at="2018-08-16T00:19:05Z" data-provider="Api data count" finished-at="2018-08-16T00:19:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[daily]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[8]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyResponseObjectDataCount -->
-        <test-method status="PASS" signature="verifyResponseObjects(java.lang.String, java.lang.String)[pri:0, instance:TestCases.apiTest@53b32d7]" name="verifyResponseObjects" duration-ms="3463" started-at="2018-08-16T00:19:09Z" data-provider="Api Object verification" finished-at="2018-08-16T00:19:13Z">
+        <test-method status="PASS" signature="verifyResponseObjects(java.lang.String, java.lang.String)[pri:0, instance:TestCases.apiTest@53b32d7]" name="verifyResponseObjects" duration-ms="3551" started-at="2018-08-16T12:56:43Z" data-provider="Api Object verification" finished-at="2018-08-16T12:56:46Z">
           <params>
             <param index="0">
               <value>
@@ -71,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResponseObjects -->
-        <test-method status="PASS" signature="verifyResponseObjects(java.lang.String, java.lang.String)[pri:0, instance:TestCases.apiTest@53b32d7]" name="verifyResponseObjects" duration-ms="3614" started-at="2018-08-16T00:19:13Z" data-provider="Api Object verification" finished-at="2018-08-16T00:19:16Z">
+        <test-method status="PASS" signature="verifyResponseObjects(java.lang.String, java.lang.String)[pri:0, instance:TestCases.apiTest@53b32d7]" name="verifyResponseObjects" duration-ms="1396" started-at="2018-08-16T12:56:46Z" data-provider="Api Object verification" finished-at="2018-08-16T12:56:47Z">
           <params>
             <param index="0">
               <value>
@@ -87,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResponseObjects -->
-        <test-method status="PASS" signature="verifyResponseObjects(java.lang.String, java.lang.String)[pri:0, instance:TestCases.apiTest@53b32d7]" name="verifyResponseObjects" duration-ms="3751" started-at="2018-08-16T00:19:16Z" data-provider="Api Object verification" finished-at="2018-08-16T00:19:20Z">
+        <test-method status="PASS" signature="verifyResponseObjects(java.lang.String, java.lang.String)[pri:0, instance:TestCases.apiTest@53b32d7]" name="verifyResponseObjects" duration-ms="2040" started-at="2018-08-16T12:56:48Z" data-provider="Api Object verification" finished-at="2018-08-16T12:56:50Z">
           <params>
             <param index="0">
               <value>
@@ -103,7 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResponseObjects -->
-        <test-method status="PASS" signature="verifyResponseObjects(java.lang.String, java.lang.String)[pri:0, instance:TestCases.apiTest@53b32d7]" name="verifyResponseObjects" duration-ms="3477" started-at="2018-08-16T00:19:20Z" data-provider="Api Object verification" finished-at="2018-08-16T00:19:23Z">
+        <test-method status="PASS" signature="verifyResponseObjects(java.lang.String, java.lang.String)[pri:0, instance:TestCases.apiTest@53b32d7]" name="verifyResponseObjects" duration-ms="2285" started-at="2018-08-16T12:56:50Z" data-provider="Api Object verification" finished-at="2018-08-16T12:56:52Z">
           <params>
             <param index="0">
               <value>
@@ -119,7 +71,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResponseObjects -->
-        <test-method status="PASS" signature="verifyResponseObjects(java.lang.String, java.lang.String)[pri:0, instance:TestCases.apiTest@53b32d7]" name="verifyResponseObjects" duration-ms="3682" started-at="2018-08-16T00:19:23Z" data-provider="Api Object verification" finished-at="2018-08-16T00:19:27Z">
+        <test-method status="PASS" signature="verifyResponseObjects(java.lang.String, java.lang.String)[pri:0, instance:TestCases.apiTest@53b32d7]" name="verifyResponseObjects" duration-ms="1402" started-at="2018-08-16T12:56:52Z" data-provider="Api Object verification" finished-at="2018-08-16T12:56:53Z">
           <params>
             <param index="0">
               <value>
@@ -135,7 +87,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResponseObjects -->
-        <test-method status="PASS" signature="verifyResponseObjects(java.lang.String, java.lang.String)[pri:0, instance:TestCases.apiTest@53b32d7]" name="verifyResponseObjects" duration-ms="3315" started-at="2018-08-16T00:19:27Z" data-provider="Api Object verification" finished-at="2018-08-16T00:19:30Z">
+        <test-method status="PASS" signature="verifyResponseObjects(java.lang.String, java.lang.String)[pri:0, instance:TestCases.apiTest@53b32d7]" name="verifyResponseObjects" duration-ms="1975" started-at="2018-08-16T12:56:53Z" data-provider="Api Object verification" finished-at="2018-08-16T12:56:55Z">
           <params>
             <param index="0">
               <value>
@@ -151,7 +103,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResponseObjects -->
-        <test-method status="PASS" signature="verifyResponseObjects(java.lang.String, java.lang.String)[pri:0, instance:TestCases.apiTest@53b32d7]" name="verifyResponseObjects" duration-ms="3437" started-at="2018-08-16T00:19:30Z" data-provider="Api Object verification" finished-at="2018-08-16T00:19:34Z">
+        <test-method status="PASS" signature="verifyResponseObjects(java.lang.String, java.lang.String)[pri:0, instance:TestCases.apiTest@53b32d7]" name="verifyResponseObjects" duration-ms="1345" started-at="2018-08-16T12:56:55Z" data-provider="Api Object verification" finished-at="2018-08-16T12:56:57Z">
           <params>
             <param index="0">
               <value>
@@ -167,7 +119,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResponseObjects -->
-        <test-method status="PASS" signature="verifyResponseObjects(java.lang.String, java.lang.String)[pri:0, instance:TestCases.apiTest@53b32d7]" name="verifyResponseObjects" duration-ms="3482" started-at="2018-08-16T00:19:34Z" data-provider="Api Object verification" finished-at="2018-08-16T00:19:37Z">
+        <test-method status="PASS" signature="verifyResponseObjects(java.lang.String, java.lang.String)[pri:0, instance:TestCases.apiTest@53b32d7]" name="verifyResponseObjects" duration-ms="1248" started-at="2018-08-16T12:56:57Z" data-provider="Api Object verification" finished-at="2018-08-16T12:56:58Z">
           <params>
             <param index="0">
               <value>
@@ -183,7 +135,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResponseObjects -->
-        <test-method status="PASS" signature="verifyResponseObjects(java.lang.String, java.lang.String)[pri:0, instance:TestCases.apiTest@53b32d7]" name="verifyResponseObjects" duration-ms="3890" started-at="2018-08-16T00:19:37Z" data-provider="Api Object verification" finished-at="2018-08-16T00:19:41Z">
+        <test-method status="PASS" signature="verifyResponseObjects(java.lang.String, java.lang.String)[pri:0, instance:TestCases.apiTest@53b32d7]" name="verifyResponseObjects" duration-ms="1451" started-at="2018-08-16T12:56:58Z" data-provider="Api Object verification" finished-at="2018-08-16T12:56:59Z">
           <params>
             <param index="0">
               <value>

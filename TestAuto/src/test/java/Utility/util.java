@@ -20,7 +20,9 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.sikuli.script.Pattern;
 import org.sikuli.script.Screen;
 import org.testng.Assert;
@@ -184,6 +186,14 @@ public class util extends Base {
 		String newstr = testChar.replace(initial, replacedChar);
 		
 		return newstr;
+	}
+	
+	public static boolean isDisplayedWait(String xpath,int timeVal){
+		boolean objVisible = false;
+		WebDriverWait wait=new WebDriverWait(driver, timeVal);
+		objVisible = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath))).isDisplayed();
+		
+		return objVisible;
 	}
 	
 	public static void mousehover(String st1){

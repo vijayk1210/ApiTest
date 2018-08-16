@@ -15,15 +15,18 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import com.relevantcodes.extentreports.LogStatus;
+
 import PageObjects.api;
 import Utility.Base;
+import Utility.ExtentTestManager;
 import Utility.util;
 
 
 
-public class apiTest{
+public class apiTest {
 	
-	// String apiUrl = "https://api.darksky.net/forecast/8874af6be307b40e41b535ce8eb32979/37.8267,-122.4233";
+	
 	
 	 @DataProvider(name = "Api Object verification")
 	  public static Object[][] jsonObjects() {
@@ -42,7 +45,7 @@ public class apiTest{
 		 
 		 if(objExists){
 			 
-			 System.out.println("Test Passed.");
+			System.out.println("Test passed for "+jsonExpObjVal);
 		 }
 		 
 		 Assert.assertTrue(objExists, "Json object exists in the response.");
@@ -66,7 +69,7 @@ public class apiTest{
 		 
 		 if(countMatch){
 
-			 System.out.println("Test Passed.");
+			 System.out.println("Data count matched for "+jsonObj);
 		 }
 		 
 		 Assert.assertTrue(countMatch, "Json object exists in the response.");

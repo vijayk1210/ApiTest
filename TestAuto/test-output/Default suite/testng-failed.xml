@@ -5,7 +5,7 @@
     <classes>
       <class name="TestCases.apiTest">
         <methods>
-          <include name="verifyResponseObjectDataCount" invocation-numbers="1"/>
+          <include name="verifyResponseObjects" invocation-numbers="0 1 2 3 4 5 6 7 8"/>
         </methods>
       </class> <!-- TestCases.apiTest -->
     </classes>

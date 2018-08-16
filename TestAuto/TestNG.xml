@@ -10,13 +10,13 @@
     
 </test>
   
-<test name="SearchFlight" > 
- 
+<test name="Flight Search Result" > 
+
+    
     <classes>
        <class name="Utility.Base" />
-       <class name="TestCases.apiTest" />
+       <class name="TestCases.SearchResultTests" />
     </classes> 
-        
+    
 </test>
-       
 </suite>
